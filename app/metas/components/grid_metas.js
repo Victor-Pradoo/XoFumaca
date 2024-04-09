@@ -5,7 +5,7 @@ import "./grid_metas.css";
 
 export default function CardMetasDias({title, metas}) {
   return ( 
-    <>
+    <div>
       <h3 className="grid-metas-title">{title}</h3>
       <div className='grid-metas-main'>
         {metas.map((meta, index) => (
@@ -19,7 +19,7 @@ export default function CardMetasDias({title, metas}) {
                 <div className='grid-metas-meta-title'>{meta.title}</div>
             </Card>
         ))}
+        </div>
     </div>
-    </>
   );
 }
