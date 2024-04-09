@@ -10,26 +10,26 @@ export default function InfoPage() {
     {
       img: "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/12/08/1259090668-parar-de-fumar-naturalmente-1.jpg",
       title:
-        "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        "Entenda os perigos do tabagismo e diga sim para o combate ao fumo",
       href: "https://www.pfizer.com.br/noticias/ultimas-noticias/entenda-os-perigos-do-tabagismo",
     },
     {
       img: "https://www.clinicameitan.com.br/wp-content/uploads/parar-de-fumar-1514728203999_v2_1920x1275.jpg",
       title:
-        "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      href: "https://www.pfizer.com.br/noticias/ultimas-noticias/entenda-os-perigos-do-tabagismo",
+        "101 razões para parar de fumar cigarro e produtos de nicotina",
+      href: "https://www.paho.org/pt/101-razoes-para-parar-fumar-0",
     },
     {
       img: "https://cdn.careplus.com.br/gerinstitucional/Src/Images/Post/00f0f675d9ffb9f62a1ff0fcbbc1799e7f2b31d4.jpg",
       title:
-        "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      href: "https://www.pfizer.com.br/noticias/ultimas-noticias/entenda-os-perigos-do-tabagismo",
+        "Pare de fumar: 21 passos para largar o cigarro",
+      href: "https://drauziovarella.uol.com.br/drogas-licitas-e-ilicitas/tabagismo/pare-de-fumar-21-passos-para-largar-o-cigarro/",
     },
     {
       img: "https://www.amato.com.br/wp-content/uploads/2014/01/parar-de-fumar-cigarro-deixar-de-fumar-930x620.jpg",
       title:
-        "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      href: "https://www.pfizer.com.br/noticias/ultimas-noticias/entenda-os-perigos-do-tabagismo",
+        "Saiba quais são os malefícios provocados pelo cigarro ao corpo humano",
+      href: "https://spdm.org.br/noticias/saude-e-bem-estar/saiba-quais-sao-os-maleficios-provocados-pelo-cigarro-ao-corpo-humano/",
     },
     {
       img: "https://www.bradescoseguros.com.br/wcm/connect/e85e91d5-18d1-42e4-ae51-8b35226e4665/11-dicas-parar-de-fumar-1400x650.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-e85e91d5-18d1-42e4-ae51-8b35226e4665-odBjESS",
