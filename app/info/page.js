@@ -34,26 +34,26 @@ export default function InfoPage() {
     {
       img: "https://www.bradescoseguros.com.br/wcm/connect/e85e91d5-18d1-42e4-ae51-8b35226e4665/11-dicas-parar-de-fumar-1400x650.jpg?MOD=AJPERES&CACHEID=ROOTWORKSPACE-e85e91d5-18d1-42e4-ae51-8b35226e4665-odBjESS",
       title:
-        "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
+        "Entenda os perigos do tabagismo e diga sim para o combate ao fumo",
       href: "https://www.pfizer.com.br/noticias/ultimas-noticias/entenda-os-perigos-do-tabagismo",
     },
     {
       img: "https://drogariasantoremedio.com.br/wp-content/uploads/2018/05/deixar-de-fumar.jpg",
       title:
-        "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      href: "https://www.pfizer.com.br/noticias/ultimas-noticias/entenda-os-perigos-do-tabagismo",
+        "101 razões para parar de fumar cigarro e produtos de nicotina",
+      href: "https://www.paho.org/pt/101-razoes-para-parar-fumar-0",
     },
     {
       img: "https://media.unimedcampinas.com.br/f484b27a-7928-4b86-ae40-24531fe8928f",
       title:
-        "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      href: "https://www.pfizer.com.br/noticias/ultimas-noticias/entenda-os-perigos-do-tabagismo",
+        "Pare de fumar: 21 passos para largar o cigarro",
+      href: "https://drauziovarella.uol.com.br/drogas-licitas-e-ilicitas/tabagismo/pare-de-fumar-21-passos-para-largar-o-cigarro/",
     },
     {
       img: "https://bhtorax.com.br/wp-content/uploads/elementor/thumbs/habbit-de-fumar-de-cigarros-scaled-qcbp0hbjgcgluotx2pd6dv4p6b6iv7yx5q910z6pag.jpg",
       title:
-        "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum",
-      href: "https://www.pfizer.com.br/noticias/ultimas-noticias/entenda-os-perigos-do-tabagismo",
+        "Saiba quais são os malefícios provocados pelo cigarro ao corpo humano",
+      href: "https://spdm.org.br/noticias/saude-e-bem-estar/saiba-quais-sao-os-maleficios-provocados-pelo-cigarro-ao-corpo-humano/",
     },
   ];
 
