@@ -1,0 +1,49 @@
+.grid-metas-title{
+    width: 100%;
+    text-align: center;
+}
+
+.grid-metas-main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.grid-metas-meta-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 160px;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+.grid-metas-meta-img-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.grid-metas-meta-img-value{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+.grid-metas-meta-img{
+    width: 140px;
+    height: auto;
+}
+
+.grid-metas-meta-title{
+    width: 100%;
+    text-align: center;
+}

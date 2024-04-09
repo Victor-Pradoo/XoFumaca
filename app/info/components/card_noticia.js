@@ -1,5 +1,4 @@
 import Card from "../../components/card";
-import Image from "next/image";
 
 import "./card_noticia.css";
 
