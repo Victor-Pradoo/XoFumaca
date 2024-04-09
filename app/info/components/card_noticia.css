@@ -1,0 +1,50 @@
+@media only screen and (max-width: 640px) {
+  :root {
+    --noticia-image-height: 200px;
+  }
+
+  .noticia-main {
+    max-width: 100%;
+    min-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 640px) {
+  :root {
+    --noticia-image-height: 180px;
+  }
+
+  .noticia-main {
+    max-width: 50%;
+    min-width: 40%;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  :root {
+    --noticia-image-height: 150px;
+  }
+
+  .noticia-main {
+    max-width: 30%;
+    min-width: 20%;
+  }
+}
+
+.noticia-main {
+  padding: 0 !important;
+  gap: 0px !important;
+}
+
+.noticia-img {
+  width: 100%;
+  height: var(--noticia-image-height);
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+}
+
+.noticia-content {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}

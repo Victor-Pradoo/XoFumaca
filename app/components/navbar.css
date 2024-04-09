@@ -1,0 +1,102 @@
+@media only screen and (max-width: 600px) {
+  #navbar-main {
+    /* Alinha itens */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    /* Coloca na parte de baixo */
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    height: 60px;
+  }
+
+  .navbar-button {
+    /* Alinha objetos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    gap: 5px;
+
+    /* Remove formatação de link */
+    text-decoration: none;
+
+    /* CSS */
+    background-color: #fff;
+    color: #888;
+    font-size: 13px;
+  }
+
+  .navbar-button.active {
+    color: #67d6f5;
+  }
+
+  .navbar-button .navbar-button-label {
+    display: none;
+  }
+
+  .navbar-button.active .navbar-button-label {
+    display: inline;
+  }
+
+  .navbar-button-icon {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #navbar-main {
+    /* Alinha itens */
+    display: flex;
+    flex-direction: column;
+
+    /* Coloca na parte de baixo */
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    background-color: #fff;
+    width: 60px;
+    height: 100%;
+  }
+
+  .navbar-button {
+    /* Alinha objetos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+
+    /* Remove formatação de link */
+    text-decoration: none;
+
+    /* CSS */
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    color: #888;
+    font-size: 13px;
+  }
+
+  .navbar-button.active {
+    color: #67d6f5;
+  }
+
+  .navbar-button .navbar-button-label {
+    display: none;
+  }
+
+  .navbar-button.active .navbar-button-label {
+    display: inline;
+  }
+
+  .navbar-button-icon {
+    width: 25px;
+    height: 25px;
+  }
+}

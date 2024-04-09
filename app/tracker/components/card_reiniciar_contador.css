@@ -1,0 +1,26 @@
+.restart-streak-button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.restart-streak-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80px;
+  height: 80px;
+  border: 3px solid #f4f4f4;
+  background-color: white;
+  box-shadow: 0px 2px 3px 0px #0002;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.restart-streak-icon {
+  width: 80%;
+  height: 80%;
+}
