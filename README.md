@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Xô Fumaça
+App para auxiliar no combate ao fumo na universidade presbiteriana mackenzie
 
-## Getting Started
+## Comunidade alvo
+Alunos do mackenzie que fumam com frequência
 
-First, run the development server:
+## Objetivo SDG 3
+3.5 Reforçar a prevenção e o tratamento do abuso de substâncias, incluindo o abuso de drogas entorpecentes e uso nocivo do álcool
 
+### Relação com o app
+ O abuso de substâncias como nicotina, presente em cigarros, vapes e outras drogas, é comum para muitos alunos do Mackenzie. Sabendo disso o Xô Fumaça foi criado com o intúito de concientizar alunos Mackenzistas sobre os males à saúde que o uso do vape, cigarros eletrônicos e tabaco trazem e também incentivar o encerramento do uso destas substâncias, possuindo sistemas de contador de dias sem fumar, metas para alcançar e cálculo de dinheiro economizado em cigarros.
+
+## Autores
+
+- Igor Soler Cavalcanti - RA 10381736
+- Victor Prado Chaves - RA 10375841
+
+## Como executar
+
+Instale as dependencias:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Inicie o servidor de desenvolvimento
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Abra [http://localhost:3000](http://localhost:3000) para ver a aplicação
