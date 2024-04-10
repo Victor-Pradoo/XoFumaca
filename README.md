@@ -1,6 +1,11 @@
 # Xô Fumaça
 App para auxiliar no combate ao fumo na universidade presbiteriana mackenzie
 
+## Autores
+
+- Igor Soler Cavalcanti - RA 10381736
+- Victor Prado Chaves - RA 10375841
+
 ## Comunidade alvo
 Alunos do mackenzie que fumam com frequência
 
@@ -12,11 +17,6 @@ Alunos do mackenzie que fumam com frequência
 
 ## Protótipo de alta fidelidade
 [Figma](https://www.figma.com/file/SMVhtWcKd0rHhIvW65bBLu/X%C3%B4-fuma%C3%A7a?type=design&node-id=1%3A2&mode=design&t=jJBvjAJXvrq4yyU1-1)
-
-## Autores
-
-- Igor Soler Cavalcanti - RA 10381736
-- Victor Prado Chaves - RA 10375841
 
 ## Como executar
 
