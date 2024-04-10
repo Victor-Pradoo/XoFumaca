@@ -20,14 +20,20 @@ Alunos do mackenzie que fumam com frequência
 
 ## Como executar
 
-Instale as dependencias:
+### Visualização virtualizada
+[CodeSandbox](https://codesandbox.io/p/github/IgorSolerC/XoFumaca)
+
+### Execução na própria maquina
+1. Clone o repositório.
+
+2. Instale as dependências:
 ```bash
 npm install
 ```
 
-Inicie o servidor de desenvolvimento
+3. Inicie o servidor de desenvolvimento
 ```bash
 npm run dev
 ```
 
-Abra [http://localhost:3000](http://localhost:3000) para ver a aplicação
+4. Abra [http://localhost:3000](http://localhost:3000) para ver a aplicação
