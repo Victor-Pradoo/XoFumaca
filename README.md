@@ -23,7 +23,7 @@ Alunos do mackenzie que fumam com frequência
 ### Visualização virtualizada
 [CodeSandbox](https://codesandbox.io/p/github/IgorSolerC/XoFumaca)
 
-### Execução na própria maquina
+### Execução na própria máquina
 1. Clone o repositório.
 
 2. Instale as dependências:
