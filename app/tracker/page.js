@@ -18,7 +18,7 @@ export default function TrackerPage() {
 
   return (
     <>
-      <Header title="Tracker" />
+      <Header title="Informações" cadastro = {true}/>
       <NavBar />
       <PageTemplate>
         {/* Aqui fica o conteúdo da página */}

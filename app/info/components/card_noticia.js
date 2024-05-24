@@ -3,6 +3,8 @@ import Card from "../../components/card";
 import "./card_noticia.css";
 
 export default function CardNoticia({ img, href, title }) {
+  
+  
   return (
     <Card className="noticia-main" href={href}>
       <img className="noticia-img" src={img} />

@@ -11,7 +11,7 @@ import "./page.css";
 export default function BadgesPage() {
   return (
     <>
-      <Header title="Metas" />
+      <Header title="Informações" cadastro ="true"/>
       <NavBar />
       <PageTemplate>
         <div id='badges-page-main'>

@@ -22,6 +22,12 @@ export default function LoginPage() {
         </div>
         <div className="login-separador"></div>
         <a className="login-forgotpassword-button">Esqueci a senha</a>
+        
+        <div className="Register-button">
+          <Link href="/cadastro" style={{ width: "100%" }}>
+            <button className="login-Register-button">Cadastro</button>
+          </Link>
+        </div>
       </div>
     </div>
   );
