@@ -6,9 +6,11 @@ export default function CardNoticia({ img, href, title }) {
   
   
   return (
-    <Card className="noticia-main" href={href}>
-      <img className="noticia-img" src={img} />
-      <div className="noticia-content">{title}</div>
+    <Card className="noticia-main">
+      <a href={href}>
+        <img className="noticia-img" src={img} />
+        <div className="noticia-content">{title}</div>
+      </a>
     </Card>
   );
 }

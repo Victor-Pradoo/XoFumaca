@@ -9,28 +9,28 @@ import "./page.css";
 
 export default function Conta(){
 
-    let [opcSelecio, setOpcao] = useState(null)
-
-
-
     return(
         <> 
            <Header title="Opções da Conta" cadastro={false}></Header>
            <PageTemplate>
                 <div className="options-box">
+                    <Link href="/alteraSenha">
+                        <div className="options-button">
+                            <button>Alterar senha</button>
+                        </div>
+                    </Link>
 
-                    <div className="options-button">
-                        <button>Alterar senha</button>
-                    </div>
+                    <Link href="/checardadosConta">
+                        <div className="options-button">
+                            <button>Checar dados da conta</button>
+                        </div>
+                    </Link>
 
-                    <div className="options-button">
-                        <button>Checar dados da conta</button>
-                    </div>
-
-                    <div className="options-button">
-                        <button>Deletar conta</button>
-                    </div>
-
+                    <Link href="/deletaConta">
+                        <div className="options-button">
+                            <button>Deletar conta</button>
+                        </div>
+                    </Link>
                 </div>
 
             </PageTemplate> 
