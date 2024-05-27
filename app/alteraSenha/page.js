@@ -1,6 +1,5 @@
 "use client"
 
-import NavBar from "../components/navbar";
 import Header from "../components/header";
 import PageTemplate from "../components/page_template";
 import { useEffect, useState } from "react"
@@ -10,9 +9,10 @@ import "./page.css";
 
 export default function CadastroPage(){
     const [password, setPassword] = useState("");
+    const [email, setEmail] = useState("");
 
     const handleSubmit = () => {
-        const userData = {password};
+        const userData = {email, password};
 
         // Enviar os dados para o json-server
         fetch("http://localhost:3001/users", {
@@ -36,26 +36,37 @@ export default function CadastroPage(){
         <>
         <Header title="Informações" cadastro = {false}/>
         <PageTemplate>
-            <div id="register-main">
-                <div id="register-div">
-                    <h3>Insira sua nova senha:</h3>
-                    <div className="register-inputs-div">
-                    
-                        <div className="register-input-element">
-                            <label className="register-input-label">Senha:</label>
-                            <input
-                            className="register-input"
-                            type="password"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                            />
-                        </div>
-                        <Link href="/login" className="register-input-element">
-                            <button onClick={handleSubmit}>Enviar</button>
-                        </Link>
+            <form id="change-main" onSubmit={handleSubmit}>
+                <div id="change-div">
+                    <h3>Insira seu email:</h3>
+
+                    <div className="change-input-element">
+                        <label className="change-input-label">Email:</label>
+                        <input
+                        className="change-input"
+                        type="text"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        />
                     </div>
+
+                    <h3>Insira sua nova senha:</h3>
+                    
+                    <div className="change-input-element">
+                        <label className="change-input-label">Senha:</label>
+                        <input
+                        className="change-input"
+                        type="password"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        />
+                    </div>
+
                 </div>
-            </div>
+                <Link href="/login" className="change-input-element">
+                    <button type="submit">Enviar</button>
+                </Link>
+            </form>
         </PageTemplate>
         </>
     )
